@@ -1,0 +1,14 @@
+[user]
+	name = sonimasa
+	email = msengnsoni@gmail.com
+[core]
+	editor = code --wait
+[alias]
+	cm = commit
+	st = status
+	br = branch
+	co = checkout
+[merge]
+	ff = false
+[pull]
+	rebase = true
