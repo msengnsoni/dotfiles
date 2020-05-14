@@ -1,0 +1,33 @@
+// 既定値を上書きするには、このファイル内にキー バインドを挿入します
+[
+    { "key": "cmd+]", "command": "workbench.action.nextEditor" },
+    { "key": "cmd+[", "command": "workbench.action.previousEditor" },
+    {
+      "key": "cmd+]",
+      "command": "workbench.action.nextSideBarView",
+      "when": "sideBarFocus"
+    },
+    {
+      "key": "cmd+[",
+      "command": "workbench.action.previousSideBarView",
+      "when": "sideBarFocus"
+    },
+    {
+      "key": "cmd+]",
+      "command": "workbench.action.nextPanelView",
+      "when": "panelFocus"
+    },
+    {
+      "key": "cmd+[",
+      "command": "workbench.action.previousPanelView",
+      "when": "panelFocus"
+    },
+    {
+      "key": "cmd+m",
+      "command": "workbench.action.focusSideBar",
+    },
+    {
+      "key": "cmd+,",
+      "command": "workbench.action.focusFirstEditorGroup",
+    }
+]
