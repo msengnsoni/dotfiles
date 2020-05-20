@@ -1,3 +1,5 @@
+aaron-bond.better-comments
+alefragnani.Bookmarks
 alefragnani.project-manager
 christian-kohler.path-intellisense
 chrmarti.regex
@@ -11,10 +13,8 @@ esbenp.prettier-vscode
 felipecaputo.git-project-manager
 formulahendry.terminal
 IBM.output-colorizer
-ionutvmi.path-autocomplete
 mechatroner.rainbow-csv
 mkaufman.HTMLHint
-mrmlnc.vscode-duplicate
 MS-CEINTL.vscode-language-pack-ja
 ms-vscode-remote.remote-ssh
 ms-vscode-remote.remote-ssh-edit
