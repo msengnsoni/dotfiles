@@ -10,9 +10,9 @@ if [ -e ~/Library/Application\ Support/Code/User ]; then
     mv keybindings.json keybindings.json.bak
     mv snippets snippets.bak
 
-    cp setting.json ~/dotfiles/vscode/settings.json
+    cp settings.json ~/dotfiles/vscode/settings.json
     cp keybindings.json ~/dotfiles/vscode/keybindings.json
-    cp snipetts ~/dotfiles/vscode/snippets
+    cp snippets ~/dotfiles/vscode/snippets
 
     for extension in `cat ~/dotfiles/vscode/extensions.txt`; do
         code --install-extension $extension
