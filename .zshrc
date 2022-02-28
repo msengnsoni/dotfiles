@@ -1,13 +1,13 @@
 #############
-#####基本設定
+##### 基本設定
 #############
-#文字コードを指定する
+# 文字コードを指定する
 export LANG=ja_JP.UTF-8
 
-#日本語ファイル名を表示可能にする
+# 日本語ファイル名を表示可能にする
 setopt print_eight_bit
 
-#color
+# color
 export CLICOLOR=1
 export TERM=xterm-256color
 
@@ -31,25 +31,25 @@ autoload colors
 zstyle ':completion:*' list-colors ''
 
 ##########
-#####alias
+##### alias
 ##########
 alias diff='colordiff'
 alias ll='ls -lah'
 
 
 ############
-#####plugin
+##### plugin
 ############
-#zsh-autosuggestions
-#.zsh_historyから過去に実行したコマンドを検索し補完する
+# zsh-autosuggestions
+# .zsh_historyから過去に実行したコマンドを検索し補完する
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-#zsh-syntax-highlighting
-#コマンド入力中に、正常に入力されているか色分けする
+# zsh-syntax-highlighting
+# コマンド入力中に、正常に入力されているか色分けする
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-#zsh-completions
-#コマンドの自動補完を行う
+# zsh-completions
+# コマンドの自動補完を行う
   if type brew &>/dev/null; then
     FPATH=/usr/local/share/zsh-completions:/usr/local/share/zsh/site-functions:/usr/share/zsh/site-functions:/usr/share/zsh/5.8/functions
 
@@ -57,9 +57,12 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
     compinit
   fi
 
-#pureのsetup
+############
+##### pure
+############
+# setup
 autoload -U promptinit; promptinit
 prompt pure
 
-
-
+# change the git branch color
+zstyle :prompt:pure:git:branch color red
