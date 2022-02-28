@@ -1,4 +1,4 @@
 # dotfiles
 
-vim git zsh の設定ファイル
+vim git zsh iTerm2の設定ファイル
 
