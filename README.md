@@ -9,8 +9,11 @@ $HOME/.gitconfig
 * .zshrc
 $HOME/.zshrc
 
-* com.googlecode.iterm2.plist
-$HOME/dotfiles/ に置く
+* iterm2
+    1. com.googlecode.iterm2.plist
+    $HOME/dotfiles/iterm2 に置く
+    2. Japanesque.itermcolors
+    Preference > Profiles > Colors > Color Presets > Import
 
 * Brewfile
 brew bundle でインストール
