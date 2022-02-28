@@ -1,4 +1,9 @@
 # dotfiles
 
-vim git zsh iTerm2の設定ファイル
+設定ファイルまとめ
 
+vim
+git
+zsh
+iTerm2
+homebrew
