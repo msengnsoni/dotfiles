@@ -1,22 +1,19 @@
-# dotfiles
+# dotfiles 設定ファイルまとめ
 
-設定ファイルまとめ
-
-# .vimrc
+* .vimrc
 $HOME/.vimrc
 
-# .gitconfig
+* .gitconfig
 $HOME/.gitconfig
 
-# .zshrc
+* .zshrc
 $HOME/.zshrc
 
-# iTerm2
+* com.googlecode.iterm2.plist
 $HOME/dotfiles/ に置く
 
-# homebrew
+* Brewfile
 brew bundle でインストール
 
-# karabiner.json
+* karabiner.json
 $HOME/.config/karabiner/karabiner.json
-
