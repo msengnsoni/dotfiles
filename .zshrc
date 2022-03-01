@@ -4,12 +4,12 @@
 # 文字コードを指定する
 export LANG=ja_JP.UTF-8
 
-# 日本語ファイル名を表示可能にする
-setopt print_eight_bit
-
 # color
 export CLICOLOR=1
 export TERM=xterm-256color
+
+# 日本語ファイル名を表示可能にする
+setopt print_eight_bit
 
 # 直前のコマンドの重複を削除
 setopt hist_ignore_dups
@@ -20,11 +20,11 @@ setopt hist_ignore_all_dups
 # 同時に起動したzshの間でヒストリを共有
 setopt share_history
 
-# 補完で小文字でも大文字にマッチさせる
-zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
-
 # 補完候補を詰めて表示
 setopt list_packed
+
+# 補完で小文字でも大文字にマッチさせる
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 
 # 補完候補一覧をカラー表示
 autoload colors
@@ -34,9 +34,10 @@ zstyle ':completion:*' list-colors ''
 ##### alias
 ##########
 alias diff='colordiff'
-alias ll='ls -lah'
-alias ls='ls -a'
-
+alias ll='ls -lh'
+alias ls='ls -h'
+alias la='ls -ah'
+alias lst='ls -ltrh'
 
 ############
 ##### plugin
