@@ -23,3 +23,5 @@ brew bundle でインストール
 
 * karabiner.json
 $HOME/.config/karabiner/karabiner.json
+
+testcommit
