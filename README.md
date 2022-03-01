@@ -6,13 +6,16 @@ $HOME/.vimrc
 * .gitconfig
 $HOME/.gitconfig
 
+* .gitignore_global
+$HOME/.gitignore_global
+
 * .zshrc
 $HOME/.zshrc
 
 * iterm2
     1. com.googlecode.iterm2.plist
     $HOME/dotfiles/iterm2 に置く
-    2. Japanesque.itermcolors
+    1. Japanesque.itermcolors
     Preference > Profiles > Colors > Color Presets > Import
 
 * Brewfile

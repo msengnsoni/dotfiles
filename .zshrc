@@ -34,7 +34,7 @@ zstyle ':completion:*' list-colors ''
 ##### alias
 ##########
 alias diff='colordiff'
-alias ll='ls -lh'
+alias ll='ls -lah'
 alias ls='ls -h'
 alias la='ls -ah'
 alias lst='ls -ltrh'

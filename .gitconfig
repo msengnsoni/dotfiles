@@ -3,6 +3,7 @@
 	email = msengnsoni@gmail.com
 [core]
 	editor = code --wait
+	excludesfile = ~/.gitignore_global
 [alias]
 	cm = commit
 	st = status
